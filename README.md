@@ -5,7 +5,7 @@
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Xray-App/community)
 
 ## Overview
-Code that support the tutorial [Integrations with TravisCI](https://docs.getxray.app/display/XRAYCLOUDDRAFT/Integrations+with+TravisCI) showcasing the integration between [Xray Test Management](https://www.getxray.app/) and [TravisCI](https://travis-ci.com/) using Java and JUnit.
+Code that support the tutorial [Integrations with TravisCI](https://docs.getxray.app/display/XRAYCLOUD/Integrations+with+TravisCI) showcasing the integration between [Xray Test Management](https://www.getxray.app/) and [TravisCI](https://travis-ci.com/) using Java and JUnit.
 
 The test automation code implements a basic [Playwright test](https://github.com/microsoft/playwright-test)
 

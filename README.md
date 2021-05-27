@@ -20,7 +20,7 @@ mvn clean compile test --file pom.xml
 
 ## Submitting results to Jira
 Results can be submitted to Jira so that they can be shared with the team and their impacts be easily analysed.
-This can be achieved using [Xray Test Management](https://www.getxray.app/) as shown in further detail in this [tutorial](https://docs.getxray.app/display/XRAYCLOUDDRAFT/Integrations+with+TravisCI).
+This can be achieved using [Xray Test Management](https://www.getxray.app/) as shown in further detail in this [tutorial](https://docs.getxray.app/display/XRAYCLOUD/Integrations+with+TravisCI).
 
 ## Contact
 

@@ -7,7 +7,7 @@
 ## Overview
 Code that support the tutorial [Integrations with TravisCI](https://docs.getxray.app/display/XRAYCLOUD/Integrations+with+TravisCI) showcasing the integration between [Xray Test Management](https://www.getxray.app/) and [TravisCI](https://travis-ci.com/) using Java and JUnit.
 
-The test automation code implements a basic [Playwright test](https://github.com/microsoft/playwright-test)
+The test automation code implements some basic Junit tests.
 
 ## Prerequisites
 In order to run this tutorial you need to have [Java](https://www.oracle.com/pt/java/technologies/javase-downloads.html) and [Maven](https://maven.apache.org/install.html).

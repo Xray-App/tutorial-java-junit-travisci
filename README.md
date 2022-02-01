@@ -1,5 +1,5 @@
 # tutorial-java-junit-travisci
-[![Build Status](https://travis-ci.com/github/Xray-App/tutorial-java-junit-travisci.svg?branch=main)](https://travis-ci.com/github/Xray-App/tutorial-java-junit-travisci)
+[![Build Status](https://app.travis-ci.com/Xray-App/tutorial-java-junit-travisci.svg?branch=main)](https://travis-ci.com/github/Xray-App/tutorial-java-junit-travisci)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FXray-App%2Ftutorial-java-junit-travisci.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FXray-App%2Ftutorial-java-junit-travisci?ref=badge_shield)
 [![license](https://img.shields.io/badge/License-BSD%203--Clause-green.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Xray-App/community)

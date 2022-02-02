@@ -13,7 +13,5 @@ jobs:
         - |
             echo "building repo..."
             mvn clean compile test --file pom.xml
-            export token=$(curl -H "Content-Type: application/json" -X POST --data "{ \"client_id\": \"$CLIENT_ID\",\"client_secret\": \"$CLIENT_SECRET\" }" https://xray.cloud.xpand-it.com/api/v2/authenticate| tr -d '"')
-            echo $token
-            curl -H "Content-Type: text/xml" -H "Authorization: Bearer $token" --data @target/surefire-reports/TEST-com.xpand.java.CalcTest.xml  "https://xray.cloud.xpand-it.com/api/v2/import/execution/junit?projectKey=$PROJECTKEY&testPlanKey=$TESTPLAN"
+            curl -H "Content-Type: application/json" -X POST -u admin:admin --data @target/surefire-reports/TEST-com.xpand.java.CalcTest.xml  "https://083f-82-155-174-79.ngrok.io/rest/raven/2.0/import/execution/junit?projectKey=$PROJECTKEY_SERVER&testPlanKey=$TESTPLAN_SERVER"
             echo "done"
